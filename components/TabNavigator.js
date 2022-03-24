@@ -12,7 +12,7 @@ import * as Animatable from 'react-native-animatable';
 //this is the tab bar itemsa
 const TabArr = [
   { route: 'Home', label: 'Home', type: Icons.Feather, icon: 'home', component: Home },
-  { route: 'Search', label: 'Search', type: Icons.Feather, icon: 'search', component: Store },
+  { route: 'Store', label: 'Store', type: Icons.Feather, icon: 'plus', component: Store },
   { route: 'Add', label: 'Add', type: Icons.Feather, icon: 'plus-square', component: Messages},
   { route: 'Account', label: 'Account', type: Icons.FontAwesome, icon: 'user-circle-o', component: Account },
 ];
